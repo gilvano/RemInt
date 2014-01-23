@@ -10,9 +10,9 @@ public class JAXBExample {
 	public static void main(String[] args) {
 
 		Customer customer = new Customer();
-		customer.setId(100);
 		customer.setName("Gilvano");
 		customer.setAge(32);
+		customer.setId(100);
 
 		try {
 			File file = new File("C:\\file.xml");
